@@ -1,0 +1,32 @@
+.cat-container {
+  width: 100%;
+  padding: 1em;
+  border: 1px solid gray;
+  border-radius: 20px;
+  align-items: end;
+  position: relative;
+}
+
+.cat-flex-wrapper {
+  display: flex;
+}
+
+.cat-profile {
+  border-radius: 20px;
+  height: 150px;
+  object-fit: fill;
+}
+
+.cat-details {
+  margin-left: 20px;
+}
+
+.cat-actions {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
+
+.cat-actions-like img {
+  height: 20px;
+}
